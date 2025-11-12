@@ -88,31 +88,12 @@ Then open your browser at:
 
 ---
 
-## 🧩 Deployment Options
-
-### 🔹 Streamlit Cloud (Recommended for Demo)
-1. Push this project to GitHub.
-2. Visit [streamlit.io/cloud](https://share.streamlit.io)
-3. Click **New App** → select your repo.
-4. Set the main file path to `app.py`.
-5. Add environment variables via the “Advanced Settings” panel.
-6. Click **Deploy** ✅
-
-### 🔹 Docker (for VPS / Production)
-Build and run manually:
-```bash
-docker build -t talent-match-app .
-docker run -p 8501:8501 --env-file .env talent-match-app
-```
-
----
-
 ## 🧠 Tech Stack
 
 - **Frontend/UI**: Streamlit
 - **Backend Logic**: Python 3.11
 - **Data Layer**: SQLAlchemy (PostgreSQL)
-- **AI Model**: OpenRouter API (LLM models like `mistralai/mixtral-8x7b:free`, `kwaipilot/kat-coder-pro:free`)
+- **AI Model**: OpenRouter API (LLM models like `kwaipilot/kat-coder-pro:free`)
 - **Deployment**: Streamlit Cloud / Docker
 
 ---
@@ -130,14 +111,7 @@ DATABASE_URL=postgresql://user:password@host:5432/dbname
 
 **Bachtiar Ramadhan**  
 Full-stack Developer & Data Engineering Enthusiast  
-📧 your-email@example.com  
-🌐 [linkedin.com/in/bachtiar-ramadhan](https://linkedin.com/in/bachtiar-ramadhan)
+📧 bachtiarramadhan26@gmail.com  
+🌐 [linkedin.com/in/bachtiar-ramadhan](https://www.linkedin.com/in/bachtiar-ramadhan-7a2b59221/)
 
 ---
-
-## 🪪 License
-This project is licensed under the **MIT License** — feel free to use, modify, and distribute with attribution.
-
----
-
-> 💬 *“Empower HR analytics with data-driven insights and AI intelligence.”*
