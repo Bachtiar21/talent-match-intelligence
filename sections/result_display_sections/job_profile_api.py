@@ -45,6 +45,8 @@ def generate_job_profile(df_result: pd.DataFrame):
             headers={
                 "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json",
+                "HTTP-Referer": "https://talent-match-intelligence.streamlit.app",
+                "X-Title": "Talent Match Intelligence",
             },
             json={
                 "model": "kwaipilot/kat-coder-pro:free",
