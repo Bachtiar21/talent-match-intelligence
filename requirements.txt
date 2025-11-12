@@ -1,8 +1,7 @@
-pandas
 streamlit
+pandas
 requests
-os
-json
-plotly
 sqlalchemy
 python-dotenv
+plotly
+psycopg2-binary
