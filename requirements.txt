@@ -1,0 +1,8 @@
+pandas
+streamlit
+requests
+os
+json
+plotly
+sqlalchemy
+python-dotenv
