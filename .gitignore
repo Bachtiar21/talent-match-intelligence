@@ -49,9 +49,6 @@ coverage.xml
 htmlcov/
 pytest_cache/
 
-# --- SQL dumps ---
-*.sql
-
 # --- Build / Dist / Packaging ---
 build/
 dist/
