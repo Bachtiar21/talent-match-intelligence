@@ -1,0 +1,75 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# --- Virtual environment ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Environment variables ---
+.env
+*.env
+
+# --- macOS system files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Logs and caches ---
+*.log
+*.sqlite3
+*.db
+*.db-journal
+.cache/
+*.pid
+
+# --- Streamlit ---
+.streamlit/
+
+# --- IDE / Editor specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Test and coverage ---
+.coverage
+coverage.xml
+htmlcov/
+pytest_cache/
+
+# --- SQL dumps ---
+*.sql
+
+# --- Build / Dist / Packaging ---
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Temporary files ---
+*.tmp
+*.bak
+*.old
+*.orig
+
+# --- OS Trash ---
+.Trashes
+ehthumbs.db
+Thumbs.db
