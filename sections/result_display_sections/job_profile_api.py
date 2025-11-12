@@ -1,4 +1,3 @@
-import os
 import sys
 import time
 import json
@@ -12,7 +11,10 @@ from .parser import parse_ai_output
 def generate_job_profile(df_result: pd.DataFrame):
     import sys
     import time
-    api_key = os.getenv("OPENROUTER_API_KEY")
+    if "api" in st.secrets:
+        api_key = st.secrets["api"]["OPENROUTER_API_KEY"]
+    else:
+        api_key = os.getenv("OPENROUTER_API_KEY")
 
     if not api_key:
         st.error("OPENROUTER_API_KEY tidak ditemukan di .env")
